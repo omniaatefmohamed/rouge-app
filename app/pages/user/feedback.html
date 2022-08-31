@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/icofont.min.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/sidebar.min.css">
+    <link rel="stylesheet" href="../../assets/css/sweet-alert.min.css">
+    <link rel="stylesheet" href="../../assets/css/slick.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="fixed-bottom-padding p-0 bg-white">
+     <div class="osahan-profle bg-white">
+        <div class="p-3 border-bottom bg-red">
+           <div class="d-flex align-items-center">
+              <a class="font-weight-bold text-cartist text-decoration-none" href="https://rougeapp.net/app/base/home">
+              <i class="icofont-long-arrow-left back-page"></i></a>
+              <h6 class="font-weight-bold m-0 ml-3 center-title fs-18px">Feedback</h6>
+              <a class="toggle ml-auto" href="#"><i class="icofont-navigation-menu text-white"></i></a>
+           </div>
+        </div>
+     </div>
+     <div id="feedback">
+        <div class="py-5 px-3">
+           <form action="https://rougeapp.net/app/customer/update_account" method="Post">
+              <div class="form-group">
+                 <label for="Firstname" class="mb-2 dark-color fs-14px Quicksand-bold">First name</label>
+                 <input type="text" class="mb-4 br-20px h45px form-control" id="Firstname"  name="fullname" required placeholder="First name">
+              </div>
+              <div class="form-group">
+                <label for="email" class="mb-2  dark-color fs-14px Quicksand-bold">Email</label>
+                <input type="email" class="mb-4  br-20px h45px form-control" id="email" name="email" required placeholder="Email">
+             </div>
+              <div class="form-group">
+                 <label for="phone" class="mb-2 dark-color fs-14px Quicksand-bold">Mobile Number</label>
+                 <input type="text" class="mb-4  br-20px h45px form-control" id="phone" name="phone"  placeholder="Mobile Number" required>
+              </div>
+             
+              <div class="form-group">
+                 <label for="old-password" class="mb-2  dark-color fs-14px Quicksand-bold">Feedback</label>
+                 <select class="h45px br-20px form-control">
+                     <option value="">happy</option>
+                     <option value="">happy</option>
+                     <option value="">happy</option>
+                     <option value="">happy</option>
+                 </select>
+              </div> 
+              <div class="form-group">
+                 <label for="new-password" class="mb-2 dark-color fs-14px Quicksand-bold">Additional Info</label>
+                 <textarea  rows="10" class="br-20px form-control" placeholder="Additional Info"></textarea>
+              </div>
+              <div class="text-center">
+                 <button type="submit" class="mt-5 br-20px fs-14px Quicksand-bold btn btn-cartist btn-block btn-lg">Submit Feedback</button>
+              </div>
+           </form>
+        </div>
+     </div>
+     <div class="osahan-menu-fotter fixed-bottom bg-white text-center border-top">
+        <div class="row m-0">
+           <a href="https://rougeapp.net/app/base/home" class="text-muted col small text-decoration-none p-2">
+              <p class="h5 m-0"><i class=" icofont-home"></i></p>
+              Home
+           </a>
+           <a href="https://rougeapp.net/app/order/cart" class="text-muted col small text-decoration-none p-2">
+              <p class="h5 m-0"><i class=" icofont-cart"></i></p>
+              Cart
+           </a>
+           <a href="https://rougeapp.net/app/customer/orders" class="text-muted col small text-decoration-none p-2">
+              <p class="h5 m-0"><i class=" icofont-sub-listing"></i></p>
+              Orders
+           </a>
+           <a href="https://rougeapp.net/app/customer/account" class="text-dark font-weight-bold col small text-decoration-none p-2">
+              <p class="h5 m-0"><i class="text-cartist icofont-ui-user"></i></p>
+              Account
+           </a>
+        </div>
+     </div>
+      <!-- start navbar -->
+      <nav id="main-nav">
+        <ul class="second-nav">
+            <li class="custom-content">
+                <div class="p-4 profile text-center">
+                    <img src="https://cartistuae.s3.eu-west-1.amazonaws.com/customer/default.png"
+                        class="img-fluid rounded-pill w-70">
+                    <h6 class="font-weight-bold m-0 mt-2 text-white Quicksand-bold fs-18px">Amir Adel</h6>
+                </div>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/account-settings.html" class="text-white">
+                    <i class="icofont-ui-user mr-2"></i> Account Settings
+                    <hr class="mb-0"/>
+               </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/orders.html" class="text-white">
+                    <i class="icofont-sub-listing mr-2"></i>
+                    Orders
+                    <hr class="mb-0"/>
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/wishlist.html" class="text-white">
+                    <i class="icofont-location-pin mr-2"></i>
+                    Wishlist
+                    <hr class="mb-0"/>
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/address.html" class="text-white">
+                    <i class="icofont-notification mr-2">
+                    </i>
+                    Address
+                    <hr class="mb-0"/>
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/notification.html" class="text-white">
+                    <i class="icofont-sale-discount mr-2"></i>
+                     Notifications
+                     <hr class="mb-0"/>
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/promocode.html" class="text-white">
+                    <i class="icofont-star mr-2"></i> Promocodes
+                    <hr class="mb-0"/>
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/membership.html" class="text-white">
+                    <i class="icofont-wink-smile mr-2"></i>
+                    Membership
+                    <hr class="mb-0"/>
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="../user/feedback.html" class="text-white">
+                    <i class="icofont-logout mr-2"></i> Feedback
+                    <hr class="mb-0"/>
+                </a>
+            </li>  
+            <li class="Quicksand-bold fs-14px">
+                <a href="https://rougeapp.net/app/customer/logout" class="text-white">
+                    <i class="invisible icofont-logout mr-2"></i>
+                    Logout
+                </a>
+            </li>
+            <li class="Quicksand-bold fs-14px">
+                <a href="" class="bg-white br-25 lang-btn pt-0">
+                    <img src="../../assets/images/arabic-flaq.png" alt="arabic-flaq" class="pr-2">
+                    Arabic
+                </a>
+            </li>
+        </ul>
+        <ul class="bottom-nav">
+            <li class="email">
+                <a href="https://rougeapp.net/app/base/change_language/ar">
+                    <p class="h5 m-0"> <img src="https://rougeapp.net/app/assets/img/eg.png" width="20px;"></p>
+                    العربية
+                </a>
+            </li>
+            <li class="ko-fi">
+                <a href="https://rougeapp.net/app/base/help">
+                    <p class="h5 m-0"><i class="icofont-headphone"></i></p>
+                    Help
+                </a>
+            </li>
+            <li>
+                <label style="position: relative !important;" class="theme-switch" for="checkbox"> <input
+                        type="checkbox" id="checkbox" />
+                    <div class="slider round"></div> <i class="icofont-moon"></i>
+                </label>
+            </li>
+        </ul>
+      </nav>
+    <!-- end navbar -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/sidebar.min.js"></script>
+    <script src="../../assets/js/sweet-alert.min.js"></script>
+    <script src="../../assets/js/slick.min.js"></script>
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>
